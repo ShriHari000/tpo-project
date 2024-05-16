@@ -1,0 +1,26 @@
+{
+	"name": "server",
+	"author": "Henok R. Bedassa",
+	"web": "henok.us",
+	"email": "jackbalageru@yahoo.com",
+	"description": "",
+	"main": "index.js",
+	"dependencies": {
+		"axios": "^0.26.0",
+		"bcrypt": "^5.1.1",
+		"cors": "^2.8.5",
+		"dotenv": "^16.0.0",
+		"express": "^4.17.3",
+		"express-async-handler": "^1.2.0",
+		"jsonwebtoken": "^9.0.2",
+		"mongoose": "^6.2.4",
+		"node-module": "^2.0.0",
+		"node-modules": "^1.0.1",
+		"nodemailer": "^6.9.13",
+		"nodemon": "^2.0.22"
+	},
+	"scripts": {
+		"start": "node index.js",
+		"dev": "nodemon index.js"
+	}
+}
